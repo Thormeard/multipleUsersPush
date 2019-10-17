@@ -1,0 +1,27 @@
+{
+  "name": "pushtolistofusers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-async-to-module-method": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fcm-call": "^2.0.0",
+    "papaparse": "^5.1.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC"
+}

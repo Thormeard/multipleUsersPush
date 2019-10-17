@@ -1,0 +1,1 @@
+Route for sending push notifications for a csv list of users by using Firebase Cloud Messaging

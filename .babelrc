@@ -1,0 +1,23 @@
+{
+  "passPerPreset": true,
+  "presets": [
+    "env",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-async-to-generator",
+    "transform-async-to-module-method",
+    "transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "testUtils": "./test/testUtils"
+        }
+      }
+    ]
+  ]
+}
